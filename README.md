@@ -34,7 +34,7 @@ Cuando el contador llega a cero, se muestra el mensaje **“¡Completado!”**.
 Si querés probarlo localmente:
 
 git clone https://github.com/rodrigopavezreyes/cuentaRegresivaJs.git
-cd cuentaRegresivaJs
+
 
 
 ![Captura del contador](./screenshot.png)
