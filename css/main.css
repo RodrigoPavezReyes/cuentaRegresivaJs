@@ -17,7 +17,7 @@
 
 body{
     background-color: brown;
-    background: radial-gradient(circle, #0d00ff 0%, #3a1c13 79%, #1c1c1c 79%, #1c1c1c 100% );
+    background: radial-gradient(circle, #d2d1e7 0%, #ae705d 79%, #7c4747 79%, #0d021e 100% );
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -25,4 +25,36 @@ body{
     justify-content: center;
     gap: 1rem;
     text-align: center;
+}
+
+.fecha span{
+    font-weight: 600;
+}
+
+.cuenta-atras{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.grande{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 4rem;
+  font-weight: 800;
+}
+
+@media (width < 550px){
+  .cuenta-atras{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media ( width < 350px){
+  .cuenta-atras{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+  }
 }
